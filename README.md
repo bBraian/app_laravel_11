@@ -3,23 +3,15 @@
 [Assine a Academy, e Seja VIP!](https://academy.especializati.com.br)
 
 ### Passo a passo
-Clone Repositório
+
+Crie o Arquivo .env
 ```sh
-git clone -b laravel-11-with-php-8.3 https://github.com/especializati/setup-docker-laravel.git app-laravel
-```
-```sh
-cd app-laravel
+cp .env.example .env
 ```
 
 Suba os containers do projeto
 ```sh
 docker-compose up -d
-```
-
-
-Crie o Arquivo .env
-```sh
-cp .env.example .env
 ```
 
 Acesse o container app
